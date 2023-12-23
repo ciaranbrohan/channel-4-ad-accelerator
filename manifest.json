@@ -1,0 +1,11 @@
+{
+    "name": "Channel 4 Ad-accelerator",
+    "version": "0.0.1",
+    "description": "Speeds up annoying channel 4 ads.",
+    "background": {
+      "service_worker": "service_worker.js"
+    },
+    "permissions": ["webNavigation", "scripting"],
+    "manifest_version": 3,
+    "host_permissions": ["https://*/*"]
+  }
