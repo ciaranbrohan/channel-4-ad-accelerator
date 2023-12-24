@@ -3,7 +3,6 @@
 
         const c4videoplayer = document.getElementById("freewheelPlayer")
         const rteVideoPlayer = document.querySelectorAll("video[title='Advertisement']")
-        console.log(rteVideoPlayer)
         if (c4videoplayer) {
             muteAndSpeedUp(c4videoplayer, 16.0)
         }
